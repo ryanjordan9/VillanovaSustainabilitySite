@@ -1,0 +1,28 @@
+.project-list {
+    list-style: none;
+    margin-right: 30px; 
+
+}
+
+.project-list__item {
+    border: 2px solid black;
+}
+
+.project-list__item--heading {
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.project-list__item--description {
+    flex-flow: row wrap; 
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
